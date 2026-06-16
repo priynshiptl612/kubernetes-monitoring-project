@@ -82,7 +82,10 @@ kubernetes-monitoring-project/
 
 Load testing was performed using Apache Benchmark (ab).
 
+Example:
 
+```bash
+ab -n 1000 -c 50 http://<application-url>/
 ```
 
 ### Validation Metrics
@@ -106,6 +109,9 @@ The entire project was deployed on an AWS EC2 instance running Ubuntu.
 * Kubernetes (Minikube)
 * Prometheus
 * Grafana
+
+---
+
 
 ---
 
